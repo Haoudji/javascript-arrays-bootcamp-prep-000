@@ -12,7 +12,6 @@ function destructivelyAddElementToBeginningOfArray(array,element){
    return cities
 }
 function destructivelyAddElementToEndOfArray(array,element){
-    array = [array, element]
       array.push(element)
     return array
 }
