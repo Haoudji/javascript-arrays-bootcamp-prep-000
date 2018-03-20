@@ -16,8 +16,7 @@ function destructivelyAddElementToEndOfArray(array,element){
     return array
 }
 function accessElementInArray(array, index){
-  var entrepreneur = [array]
-  return entrepreneur[index]
+  return array[index]
   }
   function destructivelyRemoveElementFromBeginningOfArray(array){
     var days = [array]
