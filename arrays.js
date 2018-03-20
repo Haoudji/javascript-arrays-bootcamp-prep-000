@@ -12,9 +12,9 @@ function destructivelyAddElementToBeginningOfArray(array,element){
    return cities
 }
 function destructivelyAddElementToEndOfArray(array,element){
-    var cat = [array, element]
-      cat.push(element)
-    return cat
+    array = [array, element]
+      array.push(element)
+    return array
 }
 function accessElementInArray(array, index){
   var entrepreneur = [array]
