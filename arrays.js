@@ -23,9 +23,8 @@ function accessElementInArray(array, index){
       return array
   }
   function removeElementFromBeginningOfArray(array){
-    var cats = [array]
-      cats.slice(1)
-      return cats
+      array.slice(1)
+      return array
   }
   function destructivelyRemoveElementFromEndOfArray(array){
     var iceCreams = [array]
