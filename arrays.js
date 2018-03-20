@@ -4,8 +4,8 @@ function addElementToBeginningOfArray(array,element){
    return fruit
 }
 function destructivelyAddElementToBeginningOfArray(array,element){
-    var bread = array.unshift(element)
-    return bread
+     array.unshift(element)
+    return array
 }
  function addElementToEndOfArray(array, element){
     var cities = [...array, element]
