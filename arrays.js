@@ -32,7 +32,7 @@ function accessElementInArray(array, index){
     return iceCreams
   }
   function removeElementFromEndOfArray(array){
-    array.slice(0, cream.length - 1)
+    array.slice(1, cream.length - 1)
     return array
   }
   
