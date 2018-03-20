@@ -32,8 +32,7 @@ function accessElementInArray(array, index){
     return iceCreams
   }
   function removeElementFromEndOfArray(array){
-    var cream = [array]
-    cream.slice(0, cream.length - 1)
-    return cream
+    array.slice(0, cream.length - 1)
+    return array
   }
   
