@@ -7,19 +7,37 @@ function destructivelyAddElementToBeginningOfArray(array,element){
     var bread = array.unshift(element)
     return bread
 }
-
-function addElementToBeginningOfArray(array, element){
-  var cities=['NY','NJ','MA']
-    cities=[...cities,'CT']
+ function addElementToEndOfArray(array, element){
+    var cities = [...array, element]
+   return cities
 }
-function destructivelyAddElementToBeginningOfArray(array,element){
-  var countries =['USA','Mexico','Canada']
-  countries.push('Brasil')
+function destructivelyAddElementToEndOfArray(array,element){
+    var cat = [array, element]
+      cat.push(element)
+    return cat
 }
 function accessElementInArray(array, index){
-  return array[index]
+  var entrepreneur = [array]
+  return entrepreneur[index]
   }
-  function destructiveRemoveElementFromBeginningOfArray(array){
-      array.shift()
-    return array
+  function destructivelyRemoveElementFromBeginningOfArray(array){
+    var days = [array]
+      days.shift()
+      return days
   }
+  function removeElementFromBeginningOfArray(array){
+    var cats = [array]
+      cats.slice(1)
+      return cats
+  }
+  function destructivelyRemoveElementFromEndOfArray(array){
+    var iceCreams = [array]
+    iceCreams.pop()
+    return iceCreams
+  }
+  function removeElementFromEndOfArray(array){
+    var cream = [array]
+    cream.slice(0, cream.length - 1)
+    return cream
+  }
+  
