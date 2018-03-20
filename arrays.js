@@ -19,9 +19,8 @@ function accessElementInArray(array, index){
   return array[index]
   }
   function destructivelyRemoveElementFromBeginningOfArray(array){
-    var days = [array]
-      days.shift()
-      return days
+      array.shift()
+      return array
   }
   function removeElementFromBeginningOfArray(array){
     var cats = [array]
