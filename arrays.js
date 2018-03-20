@@ -27,12 +27,11 @@ function accessElementInArray(array, index){
       return array
   }
   function destructivelyRemoveElementFromEndOfArray(array){
-    var iceCreams = [array]
-    iceCreams.pop()
-    return iceCreams
+      array.pop()
+    return array
   }
   function removeElementFromEndOfArray(array){
-    array.slice(1, cream.length - 1)
+    array.slice(0, array.length - 1)
     return array
   }
   
